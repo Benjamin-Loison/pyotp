@@ -1,3 +1,18 @@
+Changes for v2.10.0 (2026-06-13)
+================================
+
+- Fix parse_uri mis-parsing of encoded colon in issuer/account name
+  (#187)
+
+- Simplified and improved generate_otp() performance in Steam class
+  (#179)
+
+- Check digest function to prevent error on OTP Generation (#170)
+
+- Ignore non-standard otpauth parameters
+
+- use strings as immutable default arguments (#162)
+
 Changes for v2.9.0 (2023-07-27)
 ===============================
 
